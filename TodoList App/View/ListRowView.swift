@@ -27,7 +27,7 @@ struct ListRowView: View {
     var item1 =  ItemModel(title: "First item!",isCompleted: false)
     var item2 = ItemModel(title: "Second item!", isCompleted: true)
     
-        Group{
+    return VStack {
             ListRowView(item: item1)
             ListRowView(item: item2)
         }
